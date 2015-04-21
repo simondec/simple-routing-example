@@ -17,12 +17,13 @@
 		4560D98D1AE6D99C006DAB38 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9851AE6D99C006DAB38 /* User.m */; };
 		4560D98E1AE6D99C006DAB38 /* ServicesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9881AE6D99C006DAB38 /* ServicesFactory.m */; };
 		4560D98F1AE6D99C006DAB38 /* UserProfileService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D98A1AE6D99C006DAB38 /* UserProfileService.m */; };
-		4560D99F1AE6D9A4006DAB38 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9921AE6D9A4006DAB38 /* BaseViewController.m */; };
-		4560D9A01AE6D9A4006DAB38 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9941AE6D9A4006DAB38 /* MainViewController.m */; };
 		4560D9A11AE6D9A4006DAB38 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9971AE6D9A4006DAB38 /* Router.m */; };
-		4560D9A21AE6D9A4006DAB38 /* UserCredentialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9991AE6D9A4006DAB38 /* UserCredentialsViewController.m */; };
-		4560D9A31AE6D9A4006DAB38 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D99B1AE6D9A4006DAB38 /* UserProfileViewController.m */; };
 		4560D9A41AE6D9A4006DAB38 /* ViewControllersFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D99E1AE6D9A4006DAB38 /* ViewControllersFactory.m */; };
+		4560D9AD1AE6DD5A006DAB38 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9A61AE6DD5A006DAB38 /* BaseViewController.m */; };
+		4560D9AE1AE6DD5A006DAB38 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9A81AE6DD5A006DAB38 /* MainViewController.m */; };
+		4560D9AF1AE6DD5A006DAB38 /* UserCredentialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9AA1AE6DD5A006DAB38 /* UserCredentialsViewController.m */; };
+		4560D9B01AE6DD5A006DAB38 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9AC1AE6DD5A006DAB38 /* UserProfileViewController.m */; };
+		4560D9B41AE6DD98006DAB38 /* UserViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4560D9B31AE6DD98006DAB38 /* UserViewData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,18 +45,20 @@
 		4560D9881AE6D99C006DAB38 /* ServicesFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesFactory.m; sourceTree = "<group>"; };
 		4560D9891AE6D99C006DAB38 /* UserProfileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileService.h; sourceTree = "<group>"; };
 		4560D98A1AE6D99C006DAB38 /* UserProfileService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileService.m; sourceTree = "<group>"; };
-		4560D9911AE6D9A4006DAB38 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		4560D9921AE6D9A4006DAB38 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		4560D9931AE6D9A4006DAB38 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		4560D9941AE6D9A4006DAB38 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4560D9961AE6D9A4006DAB38 /* Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
 		4560D9971AE6D9A4006DAB38 /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
-		4560D9981AE6D9A4006DAB38 /* UserCredentialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCredentialsViewController.h; sourceTree = "<group>"; };
-		4560D9991AE6D9A4006DAB38 /* UserCredentialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCredentialsViewController.m; sourceTree = "<group>"; };
-		4560D99A1AE6D9A4006DAB38 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
-		4560D99B1AE6D9A4006DAB38 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
 		4560D99D1AE6D9A4006DAB38 /* ViewControllersFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersFactory.h; sourceTree = "<group>"; };
 		4560D99E1AE6D9A4006DAB38 /* ViewControllersFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersFactory.m; sourceTree = "<group>"; };
+		4560D9A51AE6DD5A006DAB38 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4560D9A61AE6DD5A006DAB38 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4560D9A71AE6DD5A006DAB38 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4560D9A81AE6DD5A006DAB38 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4560D9A91AE6DD5A006DAB38 /* UserCredentialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCredentialsViewController.h; sourceTree = "<group>"; };
+		4560D9AA1AE6DD5A006DAB38 /* UserCredentialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCredentialsViewController.m; sourceTree = "<group>"; };
+		4560D9AB1AE6DD5A006DAB38 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		4560D9AC1AE6DD5A006DAB38 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
+		4560D9B21AE6DD98006DAB38 /* UserViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewData.h; sourceTree = "<group>"; };
+		4560D9B31AE6DD98006DAB38 /* UserViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,15 +156,8 @@
 		4560D9901AE6D9A4006DAB38 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				4560D9911AE6D9A4006DAB38 /* BaseViewController.h */,
-				4560D9921AE6D9A4006DAB38 /* BaseViewController.m */,
-				4560D9931AE6D9A4006DAB38 /* MainViewController.h */,
-				4560D9941AE6D9A4006DAB38 /* MainViewController.m */,
+				4560D9B11AE6DD8A006DAB38 /* ViewData */,
 				4560D9951AE6D9A4006DAB38 /* Router */,
-				4560D9981AE6D9A4006DAB38 /* UserCredentialsViewController.h */,
-				4560D9991AE6D9A4006DAB38 /* UserCredentialsViewController.m */,
-				4560D99A1AE6D9A4006DAB38 /* UserProfileViewController.h */,
-				4560D99B1AE6D9A4006DAB38 /* UserProfileViewController.m */,
 				4560D99C1AE6D9A4006DAB38 /* Views */,
 			);
 			path = UI;
@@ -179,10 +175,27 @@
 		4560D99C1AE6D9A4006DAB38 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4560D9A51AE6DD5A006DAB38 /* BaseViewController.h */,
+				4560D9A61AE6DD5A006DAB38 /* BaseViewController.m */,
+				4560D9A71AE6DD5A006DAB38 /* MainViewController.h */,
+				4560D9A81AE6DD5A006DAB38 /* MainViewController.m */,
+				4560D9A91AE6DD5A006DAB38 /* UserCredentialsViewController.h */,
+				4560D9AA1AE6DD5A006DAB38 /* UserCredentialsViewController.m */,
+				4560D9AB1AE6DD5A006DAB38 /* UserProfileViewController.h */,
+				4560D9AC1AE6DD5A006DAB38 /* UserProfileViewController.m */,
 				4560D99D1AE6D9A4006DAB38 /* ViewControllersFactory.h */,
 				4560D99E1AE6D9A4006DAB38 /* ViewControllersFactory.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4560D9B11AE6DD8A006DAB38 /* ViewData */ = {
+			isa = PBXGroup;
+			children = (
+				4560D9B21AE6DD98006DAB38 /* UserViewData.h */,
+				4560D9B31AE6DD98006DAB38 /* UserViewData.m */,
+			);
+			path = ViewData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,18 +268,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4560D9AE1AE6DD5A006DAB38 /* MainViewController.m in Sources */,
 				4560D98E1AE6D99C006DAB38 /* ServicesFactory.m in Sources */,
-				4560D99F1AE6D9A4006DAB38 /* BaseViewController.m in Sources */,
+				4560D9AD1AE6DD5A006DAB38 /* BaseViewController.m in Sources */,
 				4560D98F1AE6D99C006DAB38 /* UserProfileService.m in Sources */,
 				4560D98D1AE6D99C006DAB38 /* User.m in Sources */,
 				4560D9A11AE6D9A4006DAB38 /* Router.m in Sources */,
-				4560D9A01AE6D9A4006DAB38 /* MainViewController.m in Sources */,
 				4560D97C1AE6D990006DAB38 /* AppDelegate.m in Sources */,
 				4560D9A41AE6D9A4006DAB38 /* ViewControllersFactory.m in Sources */,
-				4560D9A21AE6D9A4006DAB38 /* UserCredentialsViewController.m in Sources */,
 				4560D98B1AE6D99C006DAB38 /* ControllersFactory.m in Sources */,
-				4560D9A31AE6D9A4006DAB38 /* UserProfileViewController.m in Sources */,
 				4560D98C1AE6D99C006DAB38 /* UserProfileController.m in Sources */,
+				4560D9B01AE6DD5A006DAB38 /* UserProfileViewController.m in Sources */,
+				4560D9B41AE6DD98006DAB38 /* UserViewData.m in Sources */,
+				4560D9AF1AE6DD5A006DAB38 /* UserCredentialsViewController.m in Sources */,
 				4560D9571AE6D8D1006DAB38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

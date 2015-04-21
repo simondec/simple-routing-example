@@ -4,6 +4,7 @@
 
 #import "UserProfileViewController.h"
 #import "UserProfileController.h"
+#import "UserViewData.h"
 #import "Router.h"
 #import "UserCredentialsViewController.h"
 #import "ViewControllersFactory.h"
@@ -33,7 +34,7 @@
 {
     [super viewWillAppear:animated];
     [self.userProfileController fetchCurrentUserWithCompletion:^(BOOL success) {
-        // Done fetching.
+        NSLog(@"Current User Name: %@", self.userProfileController.currentUser.fullName);
     }];
 }
 

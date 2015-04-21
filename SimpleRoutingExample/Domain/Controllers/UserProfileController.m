@@ -4,11 +4,12 @@
 
 #import "UserProfileController.h"
 #import "User.h"
+#import "UserViewData.h"
 #import "UserProfileService.h"
 
 @interface UserProfileController()
 @property (nonatomic) UserProfileService *userProfileService;
-@property (nonatomic) User *currentUser;
+@property (nonatomic) User *user;
 @end
 
 @implementation UserProfileController
@@ -20,24 +21,29 @@
     return self;
 }
 
+- (UserViewData *)currentUser
+{
+    return [[UserViewData alloc] initWithUser:self.user];
+}
+
 - (BOOL)isNewUser
 {
-    return self.currentUser.email.length == 0 || self.currentUser.password.length == 0;
+    return self.user.email.length == 0 || self.user.password.length == 0;
 }
 
 - (void)fetchCurrentUserWithCompletion:(void (^)(BOOL success))completion
 {
     NSString *currentUserID = @"MyUserID"; // Grab this from the keychain or user defaults
     [self.userProfileService fetchUserWithUserID:currentUserID completion:^(User *user, NSError *error) {
-        self.currentUser = user;
+        self.user = user;
         if (completion) completion(!error);
     }];
 }
 
 - (void)updateUserWithEmail:(NSString *)email password:(NSString *)password completion:(void (^)(BOOL success))completion
 {
-    self.currentUser.email = email;
-    self.currentUser.password = password;
+    self.user.email = email;
+    self.user.password = password;
     [self.userProfileService updateUser:self.currentUser completion:^(NSError *error) {
         if (completion) completion(!error);
     }];

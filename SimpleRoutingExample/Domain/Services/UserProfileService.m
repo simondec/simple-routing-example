@@ -10,6 +10,8 @@
 {
     // Do some networking call and execute completion block
     User *user = [User new];
+    user.firstName = @"John";
+    user.lastName = @"Smith";
     if (completion) completion(user, nil);
 }
 
