@@ -13,8 +13,14 @@
 {
     if (self = [super init]) {
         self.navigationItem.title = @"Main";
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Test Routing" style:UIBarButtonItemStylePlain target:self action:@selector(testRoutingButtonTapped:)];
     }
     return self;
+}
+
+- (void)loadView
+{
+    [super loadView];
 }
 
 - (void)viewDidLoad
@@ -26,6 +32,11 @@
 - (void)userProfileButtonTapped:(UIButton *)userProfileButton
 {
     [self navigateToUserProfileWithRouter:nil];
+}
+
+- (void)testRoutingButtonTapped:(UIBarButtonItem *)testRoutingButton
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"simple-routing-example://test"]];
 }
 
 - (void)navigateWithRouter:(Router *)router

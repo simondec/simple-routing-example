@@ -31,9 +31,12 @@
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:self.mainViewController];
     [self.window makeKeyAndVisible];
     
-    // Test the router object
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
     [self buildNavigationStack];
-    
     return YES;
 }
 
