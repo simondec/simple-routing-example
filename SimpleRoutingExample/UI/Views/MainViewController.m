@@ -27,6 +27,9 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    // Let's suppose that the MainViewController's view has a UIButton called 'profileButton'
+    // [self.view.profileButton addTarget:self action:@selector(userProfileButtonTapped:)];
 }
 
 - (void)userProfileButtonTapped:(UIButton *)userProfileButton
@@ -50,6 +53,7 @@
 - (void)navigateToUserProfileWithRouter:(Router *)router
 {
     UserProfileViewController *nextVC = [self.viewControllersFactory userProfileViewController];
+    // UserProfileViewController is pushed to the navigation controller stack.
     [self.navigationController pushViewController:nextVC animated:(!router)];
     if (router) {
         [nextVC navigateWithRouter:router];

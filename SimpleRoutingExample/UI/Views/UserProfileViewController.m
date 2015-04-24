@@ -28,6 +28,9 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    // Let's suppose that the userProfileViewController's view has a UIButton called 'credentialsButton'
+    // [self.view.credentialsButton addTarget:self action:@selector(changeCredentialsButtonTapped:)];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -55,6 +58,7 @@
 {
     UserCredentialsViewController *nextVC = [self.viewControllersFactory userCredentialsViewController];
     UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:nextVC];
+    // UserCredentialsViewController is presented as a modal view.
     [self.navigationController presentViewController:navCtrl animated:(!router) completion:nil];
     if (router) {
         [nextVC navigateWithRouter:router];
